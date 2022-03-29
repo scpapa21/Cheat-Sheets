@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    background-image:    url("../Images/Tech_NeonCircuitboard_857021704_Medium_lc5h05.webp");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+/* Header */
+header {
+    position: fixed;
+    display: flex;
+    background-color: rgb(173, 216, 230);
+    width: 100%;
+    align-items: center;
+    padding: 1.5rem 1.5rem;
+    z-index: 1;
+    border-bottom: 3px solid rgb(219, 35, 127);
+}
+
+header h1{
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    word-spacing: 1rem;
+    margin-left: 39%;
+    margin-right: 14%;
+}
+
+header nav {
+    display: inline-block;
+    text-align: right;
+}
+
+header nav li{
+    display: inline;
+    margin: 1rem;
+}
+
+/* Structure */
+
+.structure {
+    position: relative;
+    top: 7rem;
+    background-color: rgb(181, 201, 247);
+    margin-left:22%;
+    margin-right: 22%;
+    border: 2px solid rgb(5, 9, 48);
+}
+
+.structure h4{
+    padding: 0.8rem;
+}
+
+.structure dd{
+    padding: 0.6rem;   
+}
+
+.structure dd:last-child {
+    padding-bottom: 1rem;
+}
+
+/* Lists */
+
+.lists {
+    position: absolute;
+    top: 7rem;
+    background-color: rgb(181, 201, 247);
+    margin-left: 2%;
+    margin-right: 80%;
+    border: 2px solid rgb(5, 9, 48);
+    border-radius: 10%;
+}
+
+.lists p:last-child{
+    padding-bottom: 1rem;
+}
+
+/* Links */
+
+.links {
+    position: absolute;
+    top: 7rem;
+    background-color: rgb(181, 201, 247);
+    margin-left: 80%;
+    margin-right: 2%;
+    border: 2px solid rgb(5, 9, 48);
+    border-radius: 10%;
+}
+
+.links p:last-child{
+    padding: 1rem;
+}
+
+/* Content */
+
+.content {
+    position: relative;
+    top: 8.5rem;
+    margin-left: 22%;
+    margin-right: 22%;
+    margin-bottom: 8%;
+    background-color: rgb(181, 201, 247);
+    border: 2px solid rgb(5, 9, 48);
+}
+
+.content p:last-child {
+    padding-bottom: 1rem;
+}
+
+/* Table */
+
+table {
+    position: relative;
+    top: 2%;
+    width: 56%;
+    margin-left: 22%;
+    margin-bottom: 4%;
+    border-collapse: collapse;
+    border: 2px solid rgb(219, 35, 127); 
+}
+
+.title {
+    background-color: rgb(5, 9, 48);
+    color: white;
+}
+
+.left{
+    width: 14em;
+    padding: 0.2rem;
+    border-right: 2px solid rgb(219, 35, 127);
+    text-align: center;
+}
+
+th {
+    padding: 1rem;
+    background-color: rgba(240, 203, 222, 0.9);
+    border-right: 2px solid rgb(219, 35, 127);
+    border-bottom: 2px solid rgb(219, 35, 127);
+    color: rgb(9, 15, 75);
+    text-align: center;
+}
+
+td {
+    padding: 0.5rem 1rem;
+    background-color: rgb(181, 201, 247,0.95);    
+}
+
+/* Footer */
+
+footer {
+    position: fixed;
+    background-color: rgb(5, 9, 48);
+    color: rgb(255, 255, 255);
+    padding: 0.5rem;
+    width: 100%;
+    z-index:1;
+    bottom:0px;
+}
+
+footer p{
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Other Elements */
+
+p {
+    text-align: justify;
+    padding: 0.6rem;
+    line-height: 1.4;
+}
+
+h2 {
+    text-align: center;
+    letter-spacing: 0.2rem;
+    padding: 1rem;
+}
+
+.tag{
+    color:blue;
+    font-weight: bold;
+}
+
+.author{
+    font-style: italic;
+}

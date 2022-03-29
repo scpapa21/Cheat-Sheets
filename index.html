@@ -1,0 +1,116 @@
+<!--
+    Path
+    C:\Users\scald\Documents\Coding Courses\Codecademy\Full-Stack Engineer\Improved Styling\Cheat Sheet Challenge\index.html
+-->
+<html>
+    <head>
+        <title>HTML Cheat Sheet</title>
+        <link href="./Resources/CSS/style.css" type="text/css" rel="stylesheet"> 
+    </head>
+    <body>
+        <header>
+            <h1>HTML Cheat Sheet</h1>
+            <nav>
+                <ul>
+                    <li>Page Structure Tags</li>
+                    <li>Content Tags</li>
+                    <li>Tables</li>
+                    <li>Lists</li>
+                    <li>Links</li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="structure">
+                <h2>Page Structure Tags</h2>
+                <dl>
+                    <dt><h4>Skeleton</h4></dt>
+                        <dd><span class="tag">&lt;html&gt;</span> Anything between the opening and closing tags will be interpreted as HTML code <span class="tag">&lt;/html&gt;</span></dd>
+                        <dd><span class="tag">&lt;head&gt;</span> Contains the metadata for a web page <span class="tag">&lt;/head&gt;</span></dd>
+                        <dd><span class="tag">&lt;body&gt;</span> Only content inside the opening and closing body tags can be displayed to the screen <span class="tag">&lt;/body&gt;</span></dd>
+                        <dd><span class="tag">&lt;main&gt;</span> Represents the dominant content of the body of a document <span class="tag">&lt;/main&gt;</span></dd>
+                        <dd><span class="tag">&lt;footer&gt;</span> Content at the bottom of the subject information <span class="tag">&lt;/footer&gt;</span></dd>
+                    <dt><h4>Divisions</h4></dt>
+                        <dd><span class="tag">&lt;div&gt;</html></span> Short for “division” or a container that divides the page into sections <span class="tag">&lt;/div&gt;</html></span></dd>
+                        <dd><span class="tag">&lt;article&gt;</html></span> Holds content that makes sense on its own <span class="tag">&lt;/article&gt;</html></span></dd>
+                        <dd><span class="tag">&lt;section&gt;</html></span> Defines elements in a document, such as chapters, headings, or any other area of the document with the same theme <span class="tag">&lt;/section&gt;</html></span></dd>
+                        <dd><span class="tag">&lt;aside&gt;</html></span> Used to mark additional information that can enhance another element but isn't required in order to understand the main content <span class="tag">&lt;/aside&gt;</html></span></dd>
+                </dl>
+            </div>
+
+            <div class="lists">
+                <h2>Lists</h2>
+                    <p><span class="tag">&lt;ul&gt;</span> Used to create a list of items in no particular order <span class="tag">&lt;/ul&gt;</span></p>
+                    <p><span class="tag">&lt;ol&gt;</span> Like unordered lists, except that each list item is numbered <span class="tag">&lt;/ol&gt;</span></p>
+                    <p><span class="tag">&lt;li&gt;</span> Used to represent an item in a list <span class="tag">&lt;/li&gt;</span></p>
+                    <p><span class="tag">&lt;dl&gt;</span> Represents a description list <span class="tag">&lt;/dl&gt;</span></p>
+                    <p><span class="tag">&lt;dt&gt;</span> Specifies a term in a description list, must be used inside a dl element <span class="tag">&lt;/dt&gt;</span></p>
+                    <p><span class="tag">&lt;dd&gt;</span> Provides the description, definition, or value for the preceding term dt <span class="tag">&lt;/dd&gt;</span></p>
+            </div>
+
+            <div class="links">
+                <h2>Links</h2>
+                    <p><span class="tag">&lt;a href= "URL"&gt;</span> Text for the link here, sends the user to the specefied URL <span class="tag">&lt;/a&gt;</span></p>
+                    <p><span class="tag">&lt;a href= #ID &gt;</span> Text for the link here, sends the user to the specefied section of the web page according to the entered ID <span class="tag">&lt;/a&gt;</span></p>
+            </div>
+
+            <div class="content">
+                <h2>Content Tags</h2>
+                    <p><span class="tag">&lt;p&gt;</span> Parragraph element. Contains a block of plain text <span class="tag">&lt;/p&gt;</span></p>
+                    <p><span class="tag">&lt;span&gt;</span> Contains short pieces of text. Best to use it when you want to target a specific piece of content that is on the same line as other text <span class="tag">&lt;/span&gt;</span></p>
+                    <p><span class="tag">&lt;img</span> src="URL of the image" alt="Alternative text / description of the image" <span class="tag">/&gt;</span></p>
+                    <p><span class="tag">&lt;video</span> src="URL of the video" poster="URL for a thumbnail for the video" controls(gives user controls over the video if included)<span>&gt;</span> Text in case the video doesn't load <span class="tag">&lt;/video&gt;</span></p>
+                    <p><span class="tag">&lt;audio</span> src="URL of the audio" autoplay(audio will automatically begin playing as soon as it can) controls(gives user controls over the audio if included) <span>&gt;</span> Text in case the audio is not supported by the browser <span class="tag">&lt;/audio&gt;</span></p>
+            </div>
+
+            <div class="tables">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class= "title" colspan=2><h2>Tables</h2></th>  
+                        </tr>
+                        <tr>
+                            <th scope="col"><h3>Tag</h3></th>
+                            <th scope="col"><h3>Description</h3></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="left"><span class="tag">&lt;table&gt;</span></td>
+                            <td> Element that will contain all of the tabular data we plan on displaying </td>
+                        </tr>
+                        <tr>
+                            <td class="left"><span class="tag">&lt;thead&gt;</span></td>
+                            <td> Section off the table's column headings </td>
+                        </tr>
+                        <tr>
+                            <td class="left"><span class="tag">&lt;tbody&gt;</span></td>
+                            <td> Contains all of the table's data </td>
+                        </tr>
+                        <tr>
+                            <td class="left"><span class="tag">&lt;tfoot&gt;</span></td>
+                            <td> The bottom part of a long table, often used to contain sums, differences, and other data results </td>
+                        </tr>
+                        <tr>
+                            <td class="left"><span class="tag">&lt;tr&gt;</span></td>
+                            <td> Sets off each row in a table </td>
+                        </tr>
+                        <tr>
+                            <td class="left"><span class="tag">&lt;th&gt;</span></td>
+                            <td> Sets off the table heade </td>
+                        </tr>
+                        <tr>
+                            <td class="left"><span class="tag">&lt;td&gt;</span></td>
+                            <td> Sets off each cell in a row </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+
+        <footer>
+            <p>Author: <span class="Author">Santiago Calderón Papa</span> </p>
+        </footer>
+    </body>
+</html>
